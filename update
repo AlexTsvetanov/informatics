@@ -1,0 +1,9 @@
+#/bin/bash
+cat readme > README.md
+git init
+git add help_git README.md update
+git commit -m "Fast Search"
+git add codes
+git commit -m "Codes"
+git remote add origin https://github.com/AlexTsvetanov/informatics.git
+git push -u origin master
